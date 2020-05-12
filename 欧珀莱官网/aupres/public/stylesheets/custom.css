@@ -1,0 +1,199 @@
+main{
+	height:auto;
+}
+.bodtop{
+	height:auto;
+	margin:0 auto;
+	background:#fff;
+	overflow: auto;
+}
+.bodtop>.dingzizx{
+	width:100%;
+	font:45px 微软雅黑;
+	color:#A1A1A1;
+	text-align: center;
+	line-height: 150px;
+	border-bottom: 1px solid #A1A1A1;
+}
+.bodtop>h3{
+	width:100%;
+	font:24px 微软雅黑;
+	text-align: center;
+	line-height: 50px;
+}
+.bodtop>.testp{
+	width:100%;
+	font:18px 微软雅黑;
+	color:#565656;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.test-adds>div{
+	overflow: hidden;
+}
+.test-adds>div>img{
+	transition: all 2s ease-in-out;
+}
+.test-adds>div>img:hover{
+	transform: scale(1.5);
+}
+form>span{
+	font:18px 微软雅黑;
+}
+form>input{
+	width:39%;
+	height:50px;
+	font-size: 16px;
+	border-radius: 5px;
+	outline: none;
+	border:none;
+	border:1px solid #000;
+	background:#F3A8B9;
+}
+.inptime{
+	margin-left: 60px;
+}
+form>div{
+	height:50px;
+	font-size: 16px;
+	border:1px solid #000;
+	background:#F3A8B9;
+	border-radius: 5px;
+	line-height: 50px;
+}
+.bodmid{
+	height:auto;
+	background:#F3A8B9;
+}
+.bodmid>div{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bodmid>div>img{
+	transition:all 2s ease-in-out;
+}
+.bodmid>div>img:hover{
+	transform:scale(1.5);
+}
+.h4{
+	color:#333;
+}
+.toshopcom{
+	height:auto;
+	overflow: auto;
+}
+
+.toshopcom>p{
+	font:18px 微软雅黑;
+	color:#565656;
+}
+.tosimg-box{
+	margin:0 auto;
+}
+.tosimg-box>div{
+	width:48%;
+}
+.tosimg-box>div>span{
+	font:18px 微软雅黑;
+	color:#666;
+	line-height: 40px;
+}
+.bodbott{
+	overflow: auto;
+}
+.bodbott>.skinbgco{
+	margin:0 auto;
+}
+.bodbott>.skinbgco>div>p{
+	font:14px 微软雅黑;
+	color:#565656;
+	line-height: 40px;
+}
+.bodbott>.skinbgco>div>span{
+	font:18px 微软雅黑;
+	color:#666;
+	line-height: 35px;
+}
+.midbox{
+	height:auto;
+	background: #FFDBE5;
+	overflow: auto;
+}
+.teximgbox{
+	margin:0 auto;
+	height:auto;
+}
+.textleft>li{
+	margin:20px 0;
+}
+.textleft>li>img{
+	width:6%;
+}
+.textleft>li>span{
+	font:18px 微软雅黑;
+	line-height: 40px;
+	color:#666;
+}
+.guanjianbox{
+	height:auto;
+	overflow:auto;
+}
+.guanjianbox>p{
+	font:18px 微软雅黑;
+	color:#666;
+}
+.guanjia{
+	height:auto;
+	margin:0 auto;
+	overflow:auto;
+}
+.addresslet{
+	height:501px;
+	border:1px solid #000;
+	overflow-y:scroll;
+}
+.addresslet>div>img{
+	width:25px;
+}
+.addresslet>div{
+	font:17px 微软雅黑;
+	color:#383838;
+	margin:10px 0;
+	cursor:pointer;
+}
+.textleft>span{
+	font:18px 微软雅黑;
+	color:#666;
+	line-height: 35px;
+}
+.textleft>p{
+	font:16px 微软雅黑;
+	color:#990000;
+}
+.addresslet>div>input{
+	height:40px;
+}
+.mapbox{
+	margin:0 auto;
+}
+.btn-country{
+	height:50px;
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 50px;
+	background:#F3A8B9;
+}
+.btn-country:hover{
+	background:#000;
+	color:#fff;
+}
+.maprit{
+	height:500px;
+	border:1px solid #ccc;
+}
+#s_p_search_btn{
+	width:100%;
+	padding:8px 10px;
+	text-align: center;
+	background:#ccc;
+}

@@ -1,0 +1,72 @@
+@media screen and (min-width: 992px) {
+	.deaImg{
+		width:147px;
+		height:532px;
+	}
+	.detaBdeta{
+		padding:50px 25%;
+	}
+	.detaBdeta>p{
+		font-size:30px;
+		font-weight:400;
+	}
+	.daate{
+		height:50px;
+	}
+	.c-offPro{
+		margin-left:33%;
+	}
+	.deaTexa{
+		font-size:18px;
+	}
+	.deaTexb{
+		padding-top: 5px;
+		font-size: 14px;
+		padding-bottom: 28px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.deaImg{
+		display:none;
+	}
+	.detaBdeta{
+		padding:30px 15px;
+	}
+	.detaBdeta>p{
+		font-size:30px;
+		font-weight:400;
+	}
+	.daate{
+		height:40px;
+	}
+	.deaTexa{
+		font-size:15px;
+	}
+	.deaTexb{
+		padding-bottom: 10px;
+		font-size: 12px;
+		padding: 10px 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.deaImg{
+		display:none;
+	}
+	.detaBdeta{
+		padding:30px 15px;
+	}
+	.detaBdeta>p{
+		font-size:18px;
+	}
+	.daate{
+		height:40px;
+	}
+	.deaTexa{
+		font-size:15px;
+	}
+	.deaTexb{
+		padding-top: 5px;
+		font-size: 12px;
+		padding-bottom: 28px;
+	}
+}

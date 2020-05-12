@@ -1,0 +1,16 @@
+.header{
+	height:60px
+}
+.imagle{
+	position:fixed;
+	top:35px;
+	right:0px;
+}
+.imagle>a>img{
+	width:30px;
+	hright:135px;
+}
+.imagle>a>img:hover{
+	width:100%;
+	height:100%;
+}

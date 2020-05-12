@@ -1,0 +1,112 @@
+li{
+	list-style: none;
+}
+.global-content{
+	background:#fff;
+	}
+.gl1{
+	height:164px;
+	padding-top:10px;
+	background:#fff;
+}
+.gl1-t{
+	height:74px;
+	margin:0 auto;
+	line-height:74px;
+	text-align:center;
+	font-size:33px;
+	color:#9a9a9a;
+	margin-top:20px;
+	
+}
+.gl1-li{
+	border-bottom:2px solid #ddd;
+	height:60px;
+	margin:0 auto;
+	text-align:center;
+	line-height:60px;
+}
+.gl1-li>li>a{
+	color:#333;
+	font-size: 18px;
+}
+.gl2{
+	width:100%;
+	height:auto;
+	background:#FFDBE5;
+	padding:24px 0 45px;
+	text-align:center;
+}
+.gl2-t{
+	width:1076px;
+	height:64px;
+	line-height:64px;
+	margin:0 auto;
+	font-size:24px;
+	color:#333;
+	font-weight:700;
+}
+.gl2-li{
+	width:1140px;
+	height:auto;
+	margin:0 auto;
+}
+.gl2-li>li{
+	padding:5px;
+	font-size:18px;
+	color:#333;
+}
+.gl3{
+	height:auto;
+	padding:24px 10px 45px;
+}
+.gl3-t{
+	
+	height:64px;
+	line-height:64px;
+	margin:0 auto;
+	font-size:24px;
+	color:#333;
+	font-weight:700;
+	text-align:center;
+	margin-bottom:10px;
+}
+.gl3-1{
+	width:1140px;
+	height:auto;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+.rightbox{
+	height:100px;
+	margin-top:80px;
+}
+.gl3-1>li>.rightbox>.right1{
+	height:36px;
+	font-size:18px;
+	color:#333;
+	line-height:36px;
+}
+.gl3-1>li>.rightbox>.right2{
+	height:108px;
+	color:#333;
+	margin:0 0 20px;
+	font-size:18px;
+	line-height:35px;
+}
+.imgs{
+	padding-top:20px;
+}
+.gl3c{
+	width:1140px;
+	font-size:18px;
+	color:#333;
+	margin:0 auto;
+	line-height:36px;
+	margin-bottom:20px;
+}
+.gl3-text{
+	width:1140px;
+	margin:0 auto;
+	
+}

@@ -1,0 +1,646 @@
+li {
+	  list-style: none;
+	}
+	* {
+	  margin: 0;
+	  padding: 0;
+	}
+	a {
+	  text-decoration: none;
+	}
+	.cuo{
+		color: red;
+		font-size: 12px;
+		display: none;
+		padding-left: 10px;
+		margin-top: -10px;
+	}
+@media screen and (min-width: 992px) {
+	* {
+	  margin: 0;
+	  padding: 0;
+	}
+	li {
+	  list-style: none;
+	}
+	a {
+	  text-decoration: none;
+	}
+  .wrap{
+    width: 100%;
+    height: 649px;
+    background: url(./../images/a.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+  }
+  .logs{
+	  width: 400px;
+	  height: 599px;
+	  margin: 0 auto;
+	  padding: 20px;
+	  margin: 30px auto;
+	  background: #ffffff;
+	  border-radius: 5px;
+  }
+  .logs>.den{
+	  width: 360px;
+	  height: 57px;
+	  margin: 0 auto;
+	  border-bottom: 2px solid #B4B4B4;
+  }
+  .logs>.den>li{
+	  float: left;
+	  width: 180px;
+	  height: 57px;
+	  line-height: 57px;
+	  text-align: center;
+	  font-size: 18px;
+  }
+  .logs>.den>.actives{
+	  border-bottom: 3px solid black;
+  }
+  .logs>.den>li>a{
+	   color: black;
+	   text-decoration: none;
+	   font-weight: 700;
+  }
+  .logs>.lu{
+	  width: 360px;
+	  height: 378px;
+	  padding-top: 20px;
+  }
+   .logs>.lu>.a1{
+	   width: 100%;
+	   height: 100%;
+	   display: none;
+   }
+   .logs>.lu>.showg{
+	   display: block;
+   }
+   .logs>.lu{
+   	  width: 100%;
+   	  height: 100%;
+   	  padding-top: 20px;
+   }
+    .logs>.lu>.madl{
+   	   width: 100%;
+   	   height: 100%;
+   	   display: block;
+    }
+    .shouji{
+   	 width: 90%;
+   	 height: 262px;
+   	 margin: 0 auto;
+    }
+    .madl-group{
+   	 width: 100%;
+   	 height: 54px;
+   	 margin-bottom: 20px;
+    }
+   .madl-group>input{
+    	width: 100%;
+    	height: 52px;
+    	padding: 6px 12px;
+    	margin: 0 auto;
+    	display: block;
+    	border-radius: 5px;
+    	border: 1px solid #ccc;
+    	box-shadow: none;
+    	outline:none;
+    }
+   .madl-group>input:focus{
+      border-color: #CCCCCC;
+      box-shadow: 0px 1px 1px 1px #ccc;
+      animation: breath 1.2s linear 0s infinite alternate;
+    }
+	button{
+   	 width: 100%;
+   	 height: 52px;
+   	 padding: 6px 12px;
+   	 font-size: 18px;
+   	 margin: 0 auto;
+   	 display: block;
+   	 border-radius: 5px;
+   	 background: #F5B3C2;
+   	 border: none;
+    }
+    .gouxuan{
+   	 width: 100%;
+   	 height: 10px;
+   	 margin: 10px 0;
+   	 font-size: 12px;
+   	 line-height: 30px;
+   	 float: left;
+    }
+    .gouxuan>label>input{
+   	 width: 15px;
+   	 height: 15px;
+   	 border: 1px solid black;
+   	 margin-top: 3px;
+    }
+    .gouxuan>a{
+   	 float: right;
+   	 color: black;
+    }
+	.line{
+		width: 100%;
+		height: 40px;
+		margin-top: 20px;
+		position: relative;
+	}
+	.line>.xian{
+		display: block;
+		width: 100px;
+		border-bottom: 1px solid #EAE8E7;
+		margin-top: 19px;
+	}
+	.zi{
+		position: absolute;
+		left: 130px;
+		top: 10px;
+	}
+	.lxian{
+		float: left;
+	}
+	.rxian{
+		float: right;
+	}
+	.weixins{
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+		background: cadetblue;
+		border-radius: 50%;
+		background: #46C062;
+		text-align: center;
+		line-height: 50px;
+		font-size: 24px;
+		color: white;
+	}
+    p{
+   	 display: block;
+   	 text-align: center;
+   	 padding: 20px;
+   	 width: 100%;
+   	 font-size: 14px;
+   	 height: 20px;
+    }
+    p>a{
+   	color: black; 
+    }
+    .mimas{
+    	 width: 90%;
+    	 height: 262px;
+    	 margin: 0 auto;
+     }
+     .zhdl-group{
+    	 width: 100%;
+    	 height: 54px;
+    	 margin-bottom: 20px;
+     }
+    .zhdl-group>input{
+     	width: 100%;
+     	height: 52px;
+     	padding: 6px 12px;
+     	margin: 0 auto;
+     	display: block;
+     	border-radius: 5px;
+     	border: 1px solid #ccc;
+     	box-shadow: none;
+     	outline:none;
+     }
+     input:focus{
+       border-color: #CCCCCC;
+       box-shadow: 0px 1px 1px 1px #ccc;
+       animation: breath 1.2s linear 0s infinite alternate;
+     }
+     .zhdl-group>.yan{
+   	  width: 66%;
+   	  height: 52px;
+   	  padding: 6px 12px;
+   	  margin: 0 auto;
+   	  display: block;
+   	  border-radius: 5px;
+   	  border: 1px solid #ccc;
+   	  box-shadow: none;
+   	  outline:none;
+   	  float: left;
+     }
+     .zheng{
+   	  width: 30%;
+   	  height: 52px;
+   	  padding: 6px 12px;
+   	  display: block;
+   	  font-size: 14px;
+   	  border-radius: 5px;
+   	  border: 1px solid #ccc;
+   	  box-shadow: none;
+   	  outline:none;
+   	  float: right;
+     }
+    .logs>.lu>.zhdl{
+   	 width: 100%;
+   	 height: 100%;
+   	 display: none;
+    } 
+}
+@media screen and (min-width: 568px) and (max-width: 991px){
+
+	.line{
+		width: 100%;
+		height: 40px;
+		background: red;
+		display: none;
+	}
+	.line>span{
+		display: none;
+		width: 33%;
+		height: 1px;
+		background: yellow;
+	}
+	.weixins{
+		display: none;
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+		background: cadetblue;
+	}
+  .wrap{
+    width: 100%;
+    height: 649px;
+    background: url(./../images/a.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+  }
+	.logs{
+		  width: 400px;
+		  height: 499px;
+		  margin: 0 auto;
+		  padding: 20px;
+		  margin: 50px auto;
+		  background: #ffffff;
+		  border-radius: 5px;
+	}
+	.logs>.den{
+		  width: 90%;
+		  height: 57px;
+		  border-bottom: 2px solid #B4B4B4;
+		  margin: 0 auto;
+	}
+	.logs>.den>li{
+		  float: left;
+		  width: 50%;
+		  height: 57px;
+		  line-height: 57px;
+		  text-align: center;
+		  font-size: 18px;
+	}
+	.logs>.den>.actives{
+		  border-bottom: 3px solid black;
+	}
+	.logs>.den>li>a{
+		   color: black;
+		   text-decoration: none;
+		   font-weight: 700;
+	}
+	.logs>.lu{
+		  width: 360px;
+		  height: 378px;
+		  padding-top: 20px;
+	}
+	 .logs>.lu>.a1{
+		   width: 100%;
+		   height: 100%;
+		   display: none;
+	 }
+	 .logs>.lu>.showg{
+		   display: block;
+	 }
+	 .logs>.lu{
+	 	  width: 100%;
+	 	  height: 100%;
+	 	  padding-top: 20px;
+	 }
+	  .logs>.lu>.madl{
+	 	   width: 100%;
+	 	   height: 100%;
+	 	   display: block;
+	  }
+	  .shouji{
+	 	 width: 90%;
+	 	 height: 262px;
+	 	 margin: 0 auto;
+	  }
+	  .madl-group{
+	 	 width: 100%;
+	 	 height: 54px;
+	 	 margin-bottom: 20px;
+	  }
+	 .madl-group>input{
+	  	width: 100%;
+	  	height: 52px;
+	  	padding: 6px 12px;
+	  	margin: 0 auto;
+	  	display: block;
+	  	border-radius: 5px;
+	  	border: 1px solid #ccc;
+	  	box-shadow: none;
+	  	outline:none;
+	  }
+	  input:focus{
+	    border-color: #CCCCCC;
+	    box-shadow: 0px 1px 1px 1px #ccc;
+	    animation: breath 1.2s linear 0s infinite alternate;
+	  }
+	  button{
+	 	 width: 100%;
+	 	 height: 52px;
+	 	 padding: 6px 12px;
+	 	 font-size: 18px;
+	 	 margin: 0 auto;
+	 	 display: block;
+	 	 border-radius: 5px;
+	 	 background: #F5B3C2;
+	 	 border: none;
+	 	 box-shadow: none;
+	 	 outline:none;
+	  }
+	  .gouxuan{
+	 	 width: 100%;
+	 	 height: 10px;
+	 	 margin: 10px 0;
+	 	 font-size: 12px;
+	 	 line-height: 30px;
+	 	 float: left;
+	  }
+	  .gouxuan>label>input{
+	 	 width: 15px;
+	 	 height: 15px;
+	 	 border: 1px solid black;
+	 	 margin-top: 3px;
+	  }
+	  .gouxuan>a{
+	 	 float: right;
+	 	 color: black;
+	  }
+	  p{
+	 	 display: block;
+	 	 text-align: center;
+	 	 padding: 20px;
+	 	 width: 100%;
+	 	 font-size: 14px;
+	 	 height: 20px;
+	  }
+	  p>a{
+	 	color: black; 
+	  }
+	  .mimas{
+	  	 width: 90%;
+	  	 height: 262px;
+	  	 margin: 0 auto;
+	   }
+	   .zhdl-group{
+	  	 width: 100%;
+	  	 height: 54px;
+	  	 margin-bottom: 20px;
+	   }
+	  .zhdl-group>input{
+	   	width: 100%;
+	   	height: 52px;
+	   	padding: 6px 12px;
+	   	margin: 0 auto;
+	   	display: block;
+	   	border-radius: 5px;
+	   	border: 1px solid #ccc;
+	   	box-shadow: none;
+	   	outline:none;
+	   }
+	   input:focus{
+	     border-color: #CCCCCC;
+	     box-shadow: 0px 1px 1px 1px #ccc;
+	     animation: breath 1.2s linear 0s infinite alternate;
+	   }
+	   .zhdl-group>.yan{
+	 	  width: 66%;
+	 	  height: 52px;
+	 	  padding: 6px 12px;
+	 	  margin: 0 auto;
+	 	  display: block;
+	 	  border-radius: 5px;
+	 	  border: 1px solid #ccc;
+	 	  box-shadow: none;
+	 	  outline:none;
+	 	  float: left;
+	   }
+	   .zheng{
+	 	  width: 30%;
+	 	  height: 52px;
+	 	  padding: 6px 12px;
+	 	  display: block;
+	 	  font-size: 14px;
+	 	  border-radius: 5px;
+	 	  border: 1px solid #ccc;
+	 	  box-shadow: none;
+	 	  outline:none;
+	 	  float: right;
+	   }
+	  .logs>.lu>.zhdl{
+	 	 width: 100%;
+	 	 height: 100%;
+	 	 display: none;
+	  } 
+}
+@media screen and (max-width:567px){
+
+	.wrap{
+		width: 90%;
+		height: 449px;
+		background:white;
+	}
+	.logs{
+		  width: 100%;
+		  height: 409px;
+		  margin: 0 auto;
+		  padding: 20px;
+		  margin: 50px auto;
+		  background: #ffffff;
+		  border-radius: 5px;
+	}
+	.logs>.den{
+		  width: 90%;
+		  height: 57px;
+		  border-bottom: 2px solid #B4B4B4;
+		  margin: 0 auto;
+	}
+	.logs>.den>li{
+		  float: left;
+		  width: 50%;
+		  height: 57px;
+		  line-height: 57px;
+		  text-align: center;
+		  font-size: 18px;
+	}
+	.logs>.den>.actives{
+		  border-bottom: 3px solid black;
+	}
+	.logs>.den>li>a{
+		   color: black;
+		   text-decoration: block;
+		   font-weight: 700;
+	}
+	
+	.logs>.lu{
+		  width: 100%;
+		  height: 100%;
+		  padding-top: 20px;
+	}
+	 .logs>.lu>.madl{
+		   width: 100%;
+		   height: 100%;
+		   display: block;
+	 }
+	 .shouji{
+		 width: 90%;
+		 height: 262px;
+		 margin: 0 auto;
+	 }
+	 .madl-group{
+		 width: 100%;
+		 height: 54px;
+		 margin-bottom: 20px;
+	 }
+	.madl-group>input{
+	 	width: 100%;
+	 	height: 52px;
+	 	padding: 6px 12px;
+	 	margin: 0 auto;
+	 	display: block;
+	 	border-radius: 5px;
+	 	border: 1px solid #ccc;
+	 	box-shadow: none;
+	 	outline:none;
+	 }
+	 input:focus{
+	   border-color: #CCCCCC;
+	   box-shadow: 0px 1px 1px 1px #ccc;
+	   animation: breath 1.2s linear 0s infinite alternate;
+	 }
+	 .denglu{
+		 width: 100%;
+		 height: 52px;
+		 padding: 6px 12px;
+		 font-size: 18px;
+		 margin: 0 auto;
+		 display: block;
+		 border-radius: 5px;
+		 background: #F5B3C2;
+		 border: none;
+		 box-shadow: none;
+		 outline:none;
+	 }
+	 .gouxuan{
+		 width: 100%;
+		 height: 10px;
+		 margin: 10px 0;
+		 font-size: 12px;
+		 line-height: 30px;
+		 float: left;
+	 }
+	 .gouxuan>label>input{
+		 width: 15px;
+		 height: 15px;
+		 border: 1px solid black;
+		 margin-top: 3px;
+	 }
+	 .gouxuan>a{
+		 float: right;
+		 color: black;
+	 }
+	 p{
+		 display: block;
+		 text-align: center;
+		 padding: 20px;
+		 width: 100%;
+		 font-size: 14px;
+		 height: 20px;
+	 }
+	 p>a{
+		color: black; 
+	 }
+	 .mimas{
+	 	 width: 90%;
+	 	 height: 262px;
+	 	 margin: 0 auto;
+	  }
+	  .zhdl-group{
+	 	 width: 100%;
+	 	 height: 54px;
+	 	 margin-bottom: 20px;
+	  }
+	 .zhdl-group>input{
+	  	width: 100%;
+	  	height: 52px;
+	  	padding: 6px 12px;
+	  	margin: 0 auto;
+	  	display: block;
+	  	border-radius: 5px;
+	  	border: 1px solid #ccc;
+	  	box-shadow: none;
+	  	outline:none;
+	  }
+	  input:focus{
+	    border-color: #CCCCCC;
+	    box-shadow: 0px 1px 1px 1px #ccc;
+	    animation: breath 1.2s linear 0s infinite alternate;
+	  }
+	  .zhdl-group>.yan{
+		  width: 66%;
+		  height: 52px;
+		  padding: 6px 12px;
+		  margin: 0 auto;
+		  display: block;
+		  border-radius: 5px;
+		  border: 1px solid #ccc;
+		  box-shadow: none;
+		  outline:none;
+		  float: left;
+	  }
+	  .zheng{
+		  width: 30%;
+		  height: 52px;
+		  padding: 6px 12px;
+		  display: block;
+		  font-size: 14px;
+		  border-radius: 5px;
+		  border: 1px solid #ccc;
+		  box-shadow: none;
+		  outline:none;
+		  float: right;
+	  }
+	 .logs>.lu>.zhdl{
+		 width: 100%;
+		 height: 100%;
+		 display: none;
+	 } 
+	 .line{
+	 	width: 100%;
+	 	height: 40px;
+	 	background: red;
+	 	display: none;
+	 }
+	 .line>span{
+	 	display: none;
+	 	width: 33%;
+	 	height: 1px;
+	 	background: yellow;
+	 }
+	 .weixins{
+	 	display: none;
+	 	width: 50px;
+	 	height: 50px;
+	 	margin: 0 auto;
+	 	background: cadetblue;
+	 }
+}
+	
+
